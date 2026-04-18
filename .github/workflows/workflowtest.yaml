@@ -8,5 +8,6 @@ jobs:
       - Windows
       - X64
     steps:
-      - run: "hello from self-hosted runners!!!"
+      - name: hello world
+        run: echo "hello from self-hosted runners!!!"
 
