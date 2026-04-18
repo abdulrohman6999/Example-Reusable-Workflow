@@ -1,0 +1,12 @@
+name: runner test
+on: workflow_dispatch
+
+jobs:
+  test:
+    runs-on:
+      - self-hosted
+      - Windows
+      - X64
+    steps:
+      - run: "hello from self-hosted runners!!!"
+
